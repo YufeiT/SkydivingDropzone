@@ -2,7 +2,9 @@
 Copyright (c) 2019 Yufei Tao Ian Gaul
 
 # Build Status
-![bitrise](https://app.bitrise.io/app/392d655d1c0b770a/status.svg?token=gry1j19c_cU9yh5LC8LAXw&branch=newyufei)
+
+![bitrise](https://app.bitrise.io/app/392d655d1c0b770a/status.svg?token=gry1j19c_cU9yh5LC8LAXw&branch=master)
+
 
 # Description
 The goal of this project is to provide an open source cross platform (iphone/android) mobile
@@ -12,10 +14,22 @@ aircraft profiles along with logging jump data on their phone and export the log
 In additon to the logbook, users can also find nearby skydiving dropzones and view
 current weather and wind conditions at the jumpsite.
 
+## Examples
+
+![data screenshot](https://github.com/YufeiT/SkydivingDropzone/blob/master/screenshots/ss13%20at%2007.11.58.png)
+![data screenshot](https://github.com/YufeiT/SkydivingDropzone/blob/master/screenshots/ss13%20at%2007.12.03.png)
+![data screenshot](https://github.com/YufeiT/SkydivingDropzone/blob/master/screenshots/ss13%20at%2007.12.41.png)
+![data screenshot](https://github.com/YufeiT/SkydivingDropzone/blob/master/screenshots/ss13%20at%2007.13.23.png)
+![data screenshot](https://github.com/YufeiT/SkydivingDropzone/blob/master/screenshots/ss13%20at%2007.13.35.png)
+![data screenshot](https://github.com/YufeiT/SkydivingDropzone/blob/master/screenshots/ss13%20at%2007.14.04.png)
+![data screenshot](https://github.com/YufeiT/SkydivingDropzone/blob/master/screenshots/ss13%20at%2007.14.11.png)
+![data screenshot](https://github.com/YufeiT/SkydivingDropzone/blob/master/screenshots/ss13%20at%2007.14.54.png)
+
+
 
 ## Install and build
 	Note: You will need Apple hardware to run and test iPhone version. IPhone requires apps be
-	installed from their app store.	There are not current plans to release this app through the
+	installed from their app store.	This app is not currently published through the
 	app store. Though this project is under MIT license, some products involved require accepting
 	other terms and conditions.
 	
@@ -29,7 +43,7 @@ Building this project is recommended using [Visual Studio](https://visualstudio.
 
 
 ## Tests
-(need to be updated)
+Currently passing. Need refactor for next state. Using Nunit.
 
 ## License
 
@@ -47,6 +61,15 @@ software for license terms.
 	- [x] add entry page
 - [x] edit profile page
 - [ ] useful links (USPA, etc)
+- [ ] points of interest with pop out information window 
+- [ ] map saving
+- [ ] map zoom levels
+- [ ] Gear/aircraft dropdown picker
+- [ ] data export
+- [ ] signatures
+- [ ] Autofill suggested
+- [ ] ...
+- [ ] Deploy to Apple and Play stores
 
 
 #### Special thanks
